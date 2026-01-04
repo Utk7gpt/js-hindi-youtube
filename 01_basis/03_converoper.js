@@ -1,4 +1,4 @@
-let score = true
+let score = "78"
 console.log(typeof score)
 let valNumber = Number(score)
 console.log(typeof valNumber)
@@ -45,6 +45,7 @@ let negValue = -value
 // console.log(+"") // 0 
 // console.log(true+) // error
 
+// important
  let gamecounter = 100
  ++gamecounter;
  console.log(gamecounter)
