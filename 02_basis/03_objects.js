@@ -15,6 +15,8 @@ const jsuser = {
 }
 // console.log(jsuser.email);
 // console.log(jsuser['location']);
+console.log(jsuser["full name"]);
+
 // console.log(jsuser[mysym]) //   output= Symbol(key1): 'mykey1'
 
 
