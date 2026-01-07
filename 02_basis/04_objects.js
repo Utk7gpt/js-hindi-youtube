@@ -50,7 +50,7 @@ users[1].email
 
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser)); // key , value are printed in this
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
@@ -61,21 +61,16 @@ const course = {
     courseInstructor: "hitesh"
 }
 
-// course.courseInstructor
+console.log(course.courseInstructor)
 
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
 console.log(instructor);
 
-// {
-//     "name": "hitesh",
-//     "coursename": "js in hindi",
-//     "price": "free"
-// }
+{
+    "name": "hitesh",
+    "coursename": "js in hindi",
+    "price": "free"
+}
 
-[
-    {},
-    {},
-    {}
-]
