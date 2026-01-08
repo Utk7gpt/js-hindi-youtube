@@ -56,3 +56,14 @@ function returnSecondValue(getArray){
 
 console.log(returnSecondValue(myNewArray));
 // console.log(returnSecondValue([200, 400, 500, 1000]))
+
+const square = n => n * n;
+console.log(square(4)); 
+
+
+/// Important
+function num(n, callback) {
+    return callback(n);
+}
+const double = (n) => n * 2;
+console.log(num(5, double));
