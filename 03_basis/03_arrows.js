@@ -1,29 +1,39 @@
-// const user = {
-//     username: "utkarsh",
-//     price: 999,
-    
-// }
-//   function chai(){
-//     let username = "utkarsh"
-//     console.log(this.username);
-    
-//   }
-// c hai() // undefined
+const user = {
+    username: "hitesh",
+    price: 999,
 
-const chai = () => {
-    let username = "utkarsh"
-    console.log(this.username);
-}
-chai()
-
-const obj = {
-    name: "Object",
-    getname: function(){
-        return this.name;
+    welcomeMessage: function() {
+        console.log(`${this.username} , welcome to website`);
+        console.log(this);
     }
-};
-console.log(obj.getname())
 
+}
+
+// user.welcomeMessage()
+// user.username = "sam"
+// user.welcomeMessage()
+
+// console.log(this);
+
+// function chai(){
+//     let username = "hitesh"
+//     console.log(this.username);
+// }
+
+// chai()
+
+// const chai = function () {
+//     let username = "hitesh"
+//     console.log(this.username);
+// }
+
+const chai =  () => {
+    let username = "hitesh"
+    console.log(this);
+}
+
+
+// chai()
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
